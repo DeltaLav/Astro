@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1606234120 source:c:\users\carlo\onedrive\documentos\proyects\c++\nave\main.cpp
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<stdlib.h>
+	<list>
+
