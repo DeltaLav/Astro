@@ -2,6 +2,7 @@
 #include <windows.h>
 #include <conio.h>
 #include <stdlib.h>
+#include <math.h>
 #include <list>
 
 #define UP 72
@@ -45,7 +46,7 @@ void pintar_limites(){
     gotoxy(77, 3); printf("%c",187);
     gotoxy(77, 33); printf("%c",188);
 
-    gotoxy(2, 34); printf("V. 0.0.1");
+    gotoxy(2, 34); printf("V. 1.2.0");
 }
 
 class NAVE {
@@ -258,7 +259,7 @@ int main(){
                             delete(*itA);
                             itA = A.erase(itA);
 
-                            score += 5;
+                            score += 10;
 
                         }
                     }
